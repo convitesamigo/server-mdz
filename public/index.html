@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <link rel="stylesheet" href="assets/css/content-center-screen.css">
+    <link rel="stylesheet" href="assets/css/inventory/bg-inventory-box.css">
+    <style type="text/css">
+        body{
+            margin: 0;
+            padding: 0;
+            background-color: #4d4d4d; 
+        }
+    </style>
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <!--<script src="node_modules/msgpackr/dist/index.js"></script>-->
+</head>
+<body>
+    <div class="content-center-screen">
+        <!--<div class="bg-inventory-box"></div>-->
+    </div>
+    
+
+    <script type="text/javascript" src="phaser.js"></script>
+    <script type="text/javascript" src="jquery-3.7.1.min.js"></script>
+    <script src="/socket.io/socket.io.js"></script>
+
+    <!--Plugins-->
+    <script type="text/javascript" src="assets/js/Plugins/rexvirtualjoystickplugin.min.js"></script>
+
+    <script type="text/javascript" src="main.js"></script>
+
+    <!--Preload-->
+    <script type="text/javascript" src="assets/js/Preload/preload_loadAssets.js"></script>
+
+    
+    <script type="text/javascript" src="assets/js/LootManager/localLootManager.js"></script>
+
+    <!--Create-->
+    <script type="text/javascript" src="assets/js/Create/create_createTileMaps.js"></script>
+    <script type="text/javascript" src="assets/js/Create/create_mapObjShapes.js"></script>
+    <script type="text/javascript" src="assets/js/Create/create_keyBoards.js"></script>
+    <script type="text/javascript" src="assets/js/Create/create_socket.js"></script>
+    <script type="text/javascript" src="assets/js/Create/create_collisionsRegister.js"></script>
+    <script type="text/javascript" src="assets/js/Create/create_playerLocalAnims.js"></script>
+    <script type="text/javascript" src="assets/js/Create/create_localPlayer.js"></script>
+    <script type="text/javascript" src="assets/js/Create/create_cameraStart.js"></script>
+    <script type="text/javascript" src="assets/js/Create/create_createObjetcsMap.js"></script>
+    <script type="text/javascript" src="assets/js/Create/create_cameraStart.js"></script>
+
+    <!--Update-->
+    <script type="text/javascript" src="assets/js/Update/update_remotePlayersAnim.js"></script>
+    <script type="text/javascript" src="assets/js/Update/update_localPlayerMovement.js"></script>
+
+
+</body>
+</html>
+

@@ -1,0 +1,6 @@
+.bg-inventory-box{
+	width: 70%;
+	height: 80%;
+	background-image: url('/assets/images/gui/inventory/inv_bg.png');
+	border-radius: 5px;
+}
